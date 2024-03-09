@@ -224,6 +224,23 @@ entries:
     version: 13.0.1
   kafka-ha:
   - apiVersion: v2
+    appVersion: v3.6.1
+    created: "2024-03-09T14:29:07.482810211Z"
+    description: Helm chart for Apache Kafka.
+    digest: 0f57459a8b3d3575518e6d172ff5dee1d758b4b4c810479a03be745f19622bb4
+    keywords:
+    - kafka
+    - streaming
+    - kraft
+    maintainers:
+    - name: sir5kong
+      url: https://github.com/itboon/kafka-docker
+    name: kafka-ha
+    type: application
+    urls:
+    - https://github.com/itboon/kafka-docker/releases/download/kafka-ha-chart-15.0.0/kafka-ha-15.0.0.tgz
+    version: 15.0.0
+  - apiVersion: v2
     appVersion: v3.5.1
     created: "2024-02-29T15:13:59.976123257Z"
     description: Helm chart for Apache Kafka.
@@ -240,4 +257,4 @@ entries:
     urls:
     - https://github.com/itboon/kafka-docker/releases/download/kafka-ha-chart-13.3.0/kafka-ha-13.3.0.tgz
     version: 13.3.0
-generated: "2024-03-09T13:59:04.00973193Z"
+generated: "2024-03-09T14:29:07.482866109Z"
